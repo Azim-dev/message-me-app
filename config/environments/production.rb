@@ -91,6 +91,6 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-  config.action_cable.allowed_request_origins = ['https://vast-oasis-78865.herokuapp.com']
-  config.action_mailer.default_url_options = { :host => "https://vast-oasis-78865.herokuapp.com" }
+  config.action_cable.allowed_request_origins = ['https://serene-springs-96307.herokuapp.com']
+  # config.action_mailer.default_url_options = { :host => "https://vast-oasis-78865.herokuapp.com" }
 end
